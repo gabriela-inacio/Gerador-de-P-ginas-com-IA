@@ -1,0 +1,107 @@
+
+/*todas as suas aplicações*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.etiqueta{
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+
+} 
+
+span{
+    color: #007054;
+}
+
+.subtitulo{
+    color: #8a8a8a;
+    font-size: 18px;
+    margin-top: 16px ;
+}
+
+  .caixa-entrada{
+    width: 620px;
+    background-color: #363636;
+    border-radius: 16px ;
+    padding: 12px;
+    margin-top: 30px;
+    display: flex;
+  }
+
+textarea{
+    width: 80% ;
+    resize: none;  /* Não permite redimencionar */
+    background-color: transparent;
+    outline: none  ;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 15px; 
+    border: none;
+}
+
+button{
+    width: 20%;
+    padding: 10px 24px;
+    background-color:#007054 ;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer; /*Trocar o cursor do mouse*/
+    font-weight: 600;
+}
+
+.caixa-resultado{
+    width: 1200px;
+    display: flex;
+    margin-top: 40px;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #5c5c5c;
+    gap: 24px;
+
+
+}
+
+.codigo{
+    width: 30%;
+    background-color: #222222;
+    padding: 20px;
+    font-size: 12px;
+    color: rgb(0, 255, 255);
+    white-space: pre-wrap;
+    overflow: auto; /*scroll*/
+    height: 600px;
+    border-radius: 12px;
+    border: 1px solid #5c5c5c;
+
+
+}
+
+.bloco-site{
+    width:70% ;
+    height: 600px;
+    border-radius: 12px;
+    border: 1px solid #5c5c5c;
+    background-color: #20292b;
+ 
+}
